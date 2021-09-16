@@ -28,4 +28,4 @@ function getMiddle(s)
 ## Education
 > **Yanka Kupala State University FisTech faculty**
 ## English
-> **Good perception but bad speech(A2). Keep learning.**
+> **A2. Keep learning.**
