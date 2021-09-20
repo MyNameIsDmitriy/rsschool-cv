@@ -7,8 +7,6 @@
 
     font-family:Verdana, 'Geneva', Tahoma, sans-serif;
     line-height: 30px;
-
-    background-color: rgb(59, 53, 53);
 }
 
 .left-col {
@@ -43,12 +41,19 @@
     background-color: rgb(70, 175, 88); 
 }
 
-.rigth-col {
+.right-col {
     width: 650;
     min-height: 100%;
 
     display: flex;
     flex-direction: column; 
+
+    background-color: rgb(29, 28, 28);
+    color: orange;
+}
+
+.right-col .section-title {
+    border-bottom: 1px solid orange;    
 }
 
 .padding {
@@ -63,6 +68,12 @@
     width: 20px;
     height: 33px;
     background-color: black;
+}
+
+.orange-squre {
+    width: 20px;
+    height: 33px;
+    background-color: orange;
 }
 
 ul {
@@ -80,13 +91,22 @@ ul {
 }
 
 a {
-    color:black;
+    color: black;
     text-decoration: none;
     box-shadow: 0 3px 0 black;
 }
 
 a:hover {
-    color:blanchedalmond;
+    color: blanchedalmond;
     text-decoration: none;
     box-shadow: none;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.my-name-style {
+    font-weight: 800;
+    font-size: 17px;
 }
